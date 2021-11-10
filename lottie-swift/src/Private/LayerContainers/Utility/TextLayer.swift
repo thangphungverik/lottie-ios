@@ -149,12 +149,12 @@ final class TextLayer: CALayer {
 
     ctx.textMatrix = .identity
     ctx.setAllowsAntialiasing(true)
-    ctx.setAllowsFontSmoothing(true)
+    //ctx.setAllowsFontSmoothing(true)
     ctx.setAllowsFontSubpixelPositioning(true)
     ctx.setAllowsFontSubpixelQuantization(true)
 
     ctx.setShouldAntialias(true)
-    ctx.setShouldSmoothFonts(true)
+    //ctx.setShouldSmoothFonts(true)
     ctx.setShouldSubpixelPositionFonts(true)
     ctx.setShouldSubpixelQuantizeFonts(true)
 
